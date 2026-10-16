@@ -1,0 +1,14 @@
+{
+  "format_version": 1,
+  "package_kind": "gkernel",
+  "package_id": "org.guild.runners.qwen",
+  "publisher_id": "org.guild-inference",
+  "scope": "runner",
+  "version": "1.0.0",
+  "kernel_abi": {"major": 1, "minor_min": 0, "minor_max": 0},
+  "backends": ["cpu", "cuda"],
+  "library_path": "lib/libguild_runners_qwen.so",
+  "provided_runners": ["runner.external.qwen35moe.v1", "runner.external.qwen4exp.v1", "runner.external.qwen2moe.v1", "runner.external.ornith.v1"],
+  "artifacts": [{"path": "lib/libguild_runners_qwen.so", "sha256": "0000000000000000000000000000000000000000000000000000000000000000", "byte_size": 0, "role": "shared_library"}],
+  "provenance": {"spdx_license": "MIT", "source_repo": "https://github.com/guild-inference/guild-runners-qwen", "source_revision": "@PACKAGE_SOURCE_REVISION@"}
+}
