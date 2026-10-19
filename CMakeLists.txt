@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.24)
-project(guild_runners_qwen VERSION 1.0.0 LANGUAGES C CXX)
+project(guild_runners_qwen VERSION 1.1.0 LANGUAGES C CXX)
 execute_process(COMMAND git rev-parse HEAD WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
   OUTPUT_VARIABLE PACKAGE_SOURCE_REVISION OUTPUT_STRIP_TRAILING_WHITESPACE ERROR_QUIET)
 configure_file(package.json.in ${CMAKE_CURRENT_BINARY_DIR}/package.json @ONLY)

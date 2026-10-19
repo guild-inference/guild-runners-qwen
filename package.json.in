@@ -4,7 +4,7 @@
   "package_id": "org.guild.runners.qwen",
   "publisher_id": "org.guild-inference",
   "scope": "runner",
-  "version": "1.0.0",
+  "version": "@PROJECT_VERSION@",
   "kernel_abi": {"major": 1, "minor_min": 0, "minor_max": 0},
   "backends": ["cpu", "cuda"],
   "library_path": "lib/libguild_runners_qwen.so",
